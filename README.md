@@ -76,10 +76,6 @@ The application will launch at `http://localhost:3000`.
 *Menu Page*
 ![Menu Page Screenshot](/path/to/menupage.png)
 
-## Videos
-
-*Website Walkthrough*
-[![Website Walkthrough](/path/to/video_thumbnail.png)](http://youtube.link.to.video)
 
 ## Built With
 
