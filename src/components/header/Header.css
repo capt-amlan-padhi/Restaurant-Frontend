@@ -1,0 +1,10 @@
+/* src/components/header/Header.css */
+
+.header {
+    background-color: #ff595e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive; /* Example of a script font */
+  }
+  

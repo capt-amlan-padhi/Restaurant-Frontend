@@ -1,0 +1,31 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 1rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  
+  /* Responsive design for the footer */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  }
+  

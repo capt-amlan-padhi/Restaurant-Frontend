@@ -1,0 +1,212 @@
+/* src/pages/HomePage.css */
+
+.home-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 2em;
+    color: #d35400;
+    margin-bottom: 10px;
+  }
+  
+  .section h3 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .section h4 {
+    font-size: 1.2em;
+    color: #16a085;
+    margin-bottom: 5px;
+  }
+  
+  .section address,
+  .section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .section a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  .section a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-item h5 {
+    margin: 0;
+  }
+  
+  .menu-item p {
+    margin: 0;
+  }
+  
+  .menu-item img {
+    max-width: 100px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+  
+/* src/pages/HomePage.css */
+
+.home-container {
+    font-family: 'Open Sans', sans-serif; /* Example of a sans-serif font */
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2, h3, h4, h5 {
+    color: #1982c4;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-item img {
+    border-radius: 8px;
+    max-width: 100px;
+    margin-left: 15px;
+  }
+
+  /* src/pages/HomePage.css */
+
+:root {
+    --primary-color: #ff595e; /* Vibrant Red */
+    --secondary-color: #1982c4; /* Bright Blue */
+    --accent-color-purple: #6a4c93; /* Deep Purple */
+    --accent-color-green: #8ac926; /* Lively Green */
+    --text-color: #333; /* Dark grey for text */
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+  }
+  
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    color: var(--primary-color);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5 {
+    font-size: 1.25rem;
+  }
+  
+  /* Header specific styles */
+  .header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Footer specific styles */
+  .footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Upcoming Events styles */
+  .upcoming-events {
+    background-color: var(--accent-color-purple);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  /* Menu styles */
+  .menu-item {
+    background-color: var(--accent-color-green);
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-item img {
+    border-radius: 8px;
+    max-width: 100px;
+    margin-left: 15px;
+  }
+  
+  /* Add more styles as needed */
+  
+  

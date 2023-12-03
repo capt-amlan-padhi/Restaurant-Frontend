@@ -1,0 +1,50 @@
+/* src/components/Navbar/Navbar.css */
+:root {
+    --primary-color: #ff595e;
+    --secondary-color: #1982c4;
+    --accent-color-purple: #6a4c93;
+    --accent-color-green: #8ac926;
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 0 1rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--secondary-color);
+  }
+/* Add to src/components/Navbar/Navbar.css */
+@media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin: 0.5rem 0;
+    }
+  }
+  
