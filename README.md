@@ -88,16 +88,11 @@ Please read [CONTRIBUTING.md](/path/to/contributing.md) for details on our code 
 
 ## Authors
 
-- **Your Name** - *Initial work* - [YourUsername](https://github.com/YourUsername)
+- **Amlan Padhi** - *Initial work* - [capt-amlan-padhi](https://github.com/capt-amlan-padhi)
 
-See also the list of [contributors](https://github.com/yourusername/epicurean-symphony-website/contributors) who participated in this project.
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used.
-- Inspiration.
-- etc.
